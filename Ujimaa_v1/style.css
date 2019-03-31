@@ -1,0 +1,285 @@
+/*
+Theme Name: Ujimaa Foundation
+Theme URI: http://www.ujimaafoundation.org/
+Template: accesspress-ray
+Author: David Malone
+Version: 1.19.0.1520588210
+Updated: 2018-03-09 09:36:50
+
+*/
+
+.navbar-toggle{background-color: #eeee22}
+.navbar-toggle .icon-bar{background-color: white}
+.header-wrap{background-color:black;}
+
+/*#site-navigation {
+	height: auto;
+} */
+
+#site-navigation .menu{
+	/*max-width:980px;*/
+	margin:0 auto;
+	color:black;
+
+}#site-navigation{
+	opacity: .7;
+}
+.slider-caption{
+	margin-top: -50px!important;
+}
+#site-navigation .menu > ul > li > a{
+	line-height:0px;
+			color:black;
+			text-decoration: none !important;
+			font-weight: 600;
+}
+#site-navigation .menu > ul > li{
+	/*margin-left: 0px;*/
+}
+
+a{
+	text-decoration: none !important;
+}
+.navbar {
+    border-radius: 0px;
+    margin-bottom: 0px;
+}
+.search-icon{float:right;}
+  .navbar-toggle .icon-bar {width: 15px!important;}
+
+.header-wrap {
+    display: inline;
+    width: 100%;
+}
+
+#page_section {
+    height: auto;
+}
+
+#top-header {
+	/*background-color:black;*/
+}
+#site-navigation .menu ul ul{
+	background:white;
+}
+#site-navigation .submenu .menu-item-has-children .submenu a{
+   /* border-top: 2px solid #eeee22;
+    line-height: 5px;*/
+}
+/*margin: 0;
+    background: transparent;
+    width: 125%;
+    border: 0;
+    box-shadow: none;*/
+#site-navigation .menu ul ul ul{
+	margin: 0px!important;
+
+width:calc(100% + 1rem);
+	background:transparent !important;
+	border:none !important;
+	box-shadow:none !important;
+		}
+#site-navigation .menu ul ul ul li{
+	float:right;
+	text-align:left;
+	/*border: 2px solid #ddd!important;*/
+	background:#000;
+	}
+	#site-navigation .menu ul ul ul li:hover{
+
+	box-shadow:0 4px 4px rgba(0, 0, 0, 0.2);
+	}
+	#site-navigation .menu ul ul li a:hover{
+		color:#eeee22!important;
+
+
+	}
+.sub-menu,.sub-menu .sub-menu li  {
+
+	background: #444 !important;
+}
+.slides{position:relative;}
+.site-branding.main-logo{
+        padding: 0;
+     padding-top: 20px;
+     padding-bottom: 20px;
+    }
+#site-navigation .menu ul ul li > a:hover:before,
+#site-navigation .menu ul ul li.current_page_item > a:before{
+    background: #eeee22 !important;
+
+}
+.header-row{
+	margin: 0 !important;
+}
+
+#site-navigation .menu li
+{
+	/*line-height: 20px!important;*/
+}
+#site-navigation .menu li .sub-menu
+{
+
+	margin: 0;
+}
+body:not(.home) #site-navigation{
+	opacity: .8;
+	position: relative;
+
+     background: #333;
+}
+#menu-header-menu{
+	list-style: none;
+}
+#site-navigation .menu ul ul li a{
+	    font-weight: 400;
+	    color: white;
+				font-size:14px !important;
+}
+#site-navigation .menu{
+	max-width: 100%;
+	width:100%;
+
+}
+
+#header-row-1{
+	width:100%;
+	background:black;
+	}
+
+.hide{
+	display: none;
+}
+.show{
+	display: block;
+}
+.sub-toggle{
+
+}
+.sub-toggle{   display:none;}
+
+#site-navigation .menu ul ul,
+#site-navigation .menu ul ul ul{
+	background-color: black;
+	display: none;
+}
+#site-navigation .menu ul ul li.current_page_item > a:active,
+#site-navigation .menu ul ul li.current_page_item > a:hover{
+	color:#eeee22 !important;
+}
+.sub-toggle .fa{
+font-size: 20px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 15%;
+    bottom: 0;
+}
+#site-navigation .menu ul ul a{
+	color:white!important;
+}
+#site-navigation .menu ul ul li.current_page_item > a {
+	color:#eeee22!important;
+
+}
+#zulu-activities-container {
+	padding-left:5px;
+	padding-right:5px;
+}
+#zulu-activities-container div{
+	padding-left:5px;
+	padding-right:5px;
+}
+#zulu-activities-container div span:nth-child(even){
+	padding-left:5px;
+	padding-right:5px;
+}
+#zulu-itinerary-container{
+	padding-left:5px;
+	padding-right:5px;
+}
+#zulu-main-content-container {
+	padding-right:0px;
+}
+#zulu-main-content-container .row{
+
+	width:100%;
+	margin:0 !important;
+		margin-bottom:50px;
+}
+#zulu-itinerary-container div{
+	padding-left:5px;
+	padding-right:5px;
+}
+#zulu-supplies-container{
+	padding-left:5px;
+	padding-right:5px;
+}
+#zulu-itinerary-container div p{
+	padding-left:5px;
+	padding-right:5px;
+}
+#zulu-transportation-container a{
+	text-decoration:underline !important;
+	color:#9d9d05;
+}
+#zulu-supplies-container a{
+	text-decoration:underline !important;
+	color:#9d9d05;
+}
+@media screen and (max-width: 992px){
+	#site-navigation{
+
+		width:auto;
+	}
+}
+
+
+@media screen and (min-width: 768px){
+#site-navigation .menu > ul > li{
+
+	       margin-right: .2rem!important;
+}
+
+#site-navigation nav{
+	width:100%;
+}
+#site-navigation .menu-item-has-children{
+	 margin-right: 0rem!important;
+
+}
+}
+@media screen and (max-width: 768px){
+
+#zulu-supplies-container{
+		bottom:0 !important;
+		position:relative !important;
+
+}
+}
+
+@media (min-width: 768px){
+#site-navigation #menu-header-menu>.menu-item-has-children:after {
+    content: "\f107";
+    font-family: 'fontAwesome';
+    color: white;
+    margin-left: 1.2rem;
+    float:right;
+     margin-right: .2rem!important;
+}
+}
+@media screen and (max-width: 576px){
+
+#zulu-camp-img-container div{
+	max-width:50% !important;
+
+}
+}
+@media screen and (min-width: 576px){
+
+#zulu-camp-img-container div{
+
+	margin:0px 0px !important ;
+
+}
+}
